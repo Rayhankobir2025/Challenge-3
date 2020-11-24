@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span,strong{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header section */
+.header{
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background:#6278df;
+}
+.header-logo img {
+	width: 100px;
+	color: rgb(226, 4, 4);
+}
+.header-logo span {
+	color: #17a661;
+	display: inline-block;
+	font-size: 10px;
+	text-decoration: none;
+	top: 7px;
+	position: relative;
+	left: -7px;
+}
+.h-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.h-menu ul li{
+    display:inline-block;
+}
+.h-menu ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 600;
+	display: inline-block;
+	padding: 0 18px;
+	font-size: 18px;
+}
+.h-btn{
+    margin-bottom: 0;
+}
+.h-btn a {
+	color: #fff;
+	font-weight: 600;
+	display: inline-block;
+	padding: 2px 20px;
+}
+/* banner section */
+.banner{
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 560px;
+    animation: Rayhan 30s ease-in-out infinite;
+    background-size: cover;
+    background-position: center center;
+}
+@keyframes Rayhan{
+    0%,100%{
+        background-image: url(./img/bg-hero-5-1792-x1.png);
+    }
+    20%{
+        background-image: url(./img/bg-hero-4-1792-x1.png);
+    }
+    40%{
+        background-image: url(./img/bg-hero-3-1792-x1.png);
+    }
+    60%{
+        background-image: url(./img/bg-hero-2-1792-x1.png);
+    }
+    80%{
+        background-image: url(./img/bg-hero-1-1792-x1.png);
+    }
+}
+.banner-text {
+	margin-top: 158px;
+	width: 500px;
+}
+.banner-text h2 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 42px;
+	word-spacing: 1px;
+}
+.b-input {
+	background: #fff;
+	width: 530px;
+	padding: 8px 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+    position: relative;
+}
+.b-i{
+    background: #fff;
+	width: 500px;
+    padding: 8px 10px;
+    border: none;
+    margin-left: 10px;
+}
+.b-input span {
+	color: #767676;
+	position: relative;
+	top: 5px;
+	left: 8px;
+	font-size: 20px;
+}
+.b-input a {
+	color: #fff;
+	background: #1dbf73;
+	display: inline-block;
+	padding: 8px 26px;
+	line-height: 38px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-weight: 600;
+}
+.popular h2 {
+	font-size: 15px;
+	margin-top: 12px;
+}
+.popular a {
+	text-decoration: navajowhite;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 8px;
+	padding: 2px 11px;
+	border-radius: 30px;
+	font-weight: 500;
+	transition: .4s;
+}
+.popular a:hover{
+	color: #000;
+	background: #fff;
+	border-color: #fff;
+}
+/* Trust section css */
+.trust{
+    background: #fafafa;
+    position: relative;
+    top: 60px;
+}
+.trust-text h3 {
+	color: #bfd3ee;
+	font-size: 20px;
+	position: relative;
+	top: 18px;
+	margin-right: 15px;
+}
+.trust-img img {
+	margin-left: 35px;
+}
+/* Coursel section css */
+.coursel-sec{
+    background: #ffffff;
+    position: relative;
+    top: 60px;
+}
+.coursel-sec h2 {
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.carousel-item img{
+    width: 23%;
+    margin-right:2.3% ;
+}
+.carousel-item img:nth-child(4){ 
+    margin-right: 0;
+}
+/* Talent section */
+.talent{
+    background: #f1fdf7;
+    position: relative;
+    top: 60px;
+}
+.talent-text{
+    width: 500px;
+}
+.talent-text h2 {
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 35px;
+}
+.t-icon span {
+	margin-right: 10px;
+	font-size: 20px;
+	color: #767676;
+}
+.t-icon h4 {
+	font-size: 20px;
+	margin-top: 3px;
+}
+.t-icon-text p{
+    color: #626483;
+}
+.talent-img {
+	margin-top: 30px;
+}
+/* Explore section css */
+.explore{
+	position: relative;
+	top: 60px;
+	background: #fff;
+}
+.explore-icon img {
+	width: 50px;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.explore-tittle h2 {
+	margin-bottom: 40px;
+}
+.explore-icon{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.explore-icon h4 {
+	font-size: 17px;
+	font-weight: 400;
+}
+/* Business section  */
+.business{
+	background: #0d084d;
+	position: relative;
+	top: 60px;
+}
+.bu-text h3 {
+	color: #fff;
+	font-weight: 400;
+}
+.bu-text span {
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+	margin-right: 2px;
+}
+.bu-text strong {
+	background: #584aff;
+	height: 20px;
+	width: 49px;
+	color: #fff;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-left: 5px;
+	margin-top: 12px;
+}
+.bus h2 {
+	color: #fff;
+	width: 350px;
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: 23px;
+	margin-bottom: 20px;
+}
+.bus span {
+    font-style: oblique;
+    font-weight: 400;
+}
+.bus h3 {
+	color: #fff;
+	width: 489px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.business .t-icon h4{
+	font-size: 8px;
+}
+.business .t-icon h4 {
+	font-size: 18px;
+	font-weight: 400;
+}
+.bus-btn a {
+	color: #fff;
+	text-decoration: none;
+	background: #1dbf73;
+	display: inline-block;
+	padding: 9px 21px;
+	border-radius: 10px;
+	margin-top: 50px;
+	font-weight: 500;
+	transition: .4s;
+}
+.bus-btn a:hover{
+	background: rgba(29, 191, 115, 0.8);
+	color: #fff;
+}
+/* Video coursel section css */
+.video-coursel{
+	position: relative;
+	top: 60px;
+	background: #fff;
+}
+.ray-cour img{
+	width: 500px;
+	height: auto;
+	border-radius: 5px;
+}
+.ray-cour h2{
+	font-style:italic;
+	font-weight: 400;
+	font-size: 34px;
+}
+.video-cour-text h4 {
+	color: #7a7d85;
+	margin-top: 30px;
+	font-weight: 400;
+	font-size: 25px;
+	border-right: 1px solid #ddd;
+	padding-right: 10px;
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+.video-cour-text span {
+	color: #000;
+	font-weight: 500;
+	position: relative;
+	top: 27px;
+	left: 20px;
+	font-size: 20px;
+}
+.shadow-lg{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	color: #1dbf73 !important;
+	
+}
+/* Inspire section */
+.inspire{
+	position: relative;
+	top: 60px;
+	background: #f5f5f5;
+}
+.inspire-tittle a{
+	text-decoration: none;
+}
+.inspire-top img{
+	width: 100%;
+	height: 250px;
+}
+.inspire-items{
+	margin-top: 15px;
+	box-shadow: 3px 4px 30px 0 rgba(0,0,0, .2);
+	border-radius: 5px;
+}
+.inspire-bottom img {
+	width: 50px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.inspire-bottom h4 {
+	font-size: 16px;
+	position: relative;
+	top: 7px;
+	font-weight: 600;
+}
+.inspire-bottom p {
+	color: #a6c7ef;
+	padding-bottom: 20px;
+}
+/* Guides section css */
+.guide{
+	position: relative;
+	top: 60px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.guide-item img{
+	width: 100%;
+	transition: .4s;
+}
+.guide-item img:hover{
+	opacity: .8;
+	background: #000;
+}
+.guide-item h4 {
+	font-size: 20px;
+	margin-top: 20px;
+}
+.guide-item p {
+	color: #7c7d87;
+	font-size: 17px;
+	margin-top: -7px;
+}
+.get-start{
+	margin-top: 50px;
+	position: relative;
+}
+.get-text{
+	width: 600px;
+	position: absolute;
+	top: 120px;
+	left: 80px;
+	color: #fff;
+}
+.get-text h2 {
+	font-size: 47px;
+}
+/* Footer section css */
+.footer{
+	position: relative;
+	top: 60px;
+	background: #fff;
+}
+.footer-content-1 h4{
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.footer-content-1 a {
+	text-decoration: none;
+	display: block;
+	color: #7a7d85;
+	line-height: 40px;
+	font-size: 17px;
+}
+.footer-content-1 a:hover{
+	text-decoration: underline;
+}
+.footer-content-1 span {
+	color: #b7bcc6;
+	font-size: 14px;
+	position: relative;
+	top: -17px;
+}
+.footer-content-1 .rat{
+	position: relative;
+	top: -20px;
+}
+.footer-content-1 .rat-1 {
+	position: relative;
+	top: -44px;
+}
+.footer .container{
+	border-bottom: 1px solid #ddd;
+}
+/* Footer bottom section css */
+.footer-bottom-left{
+	position: relative;
+	top: 50px;
+	padding-bottom: 30px;
+}
+.footer-bottom-left img {
+	width: 110px;
+	color: #7a7d85;
+	float: left;
+	margin-right: 10px;
+}
+.footer-bottom-left p {
+	color: #b5c8e0;
+	position: relative;
+	top: 10px;
+	font-size: 16px;
+}
+.footer-bottom-left span{
+	color: red;
+}
+.footer-bottom-menu ul{
+	position: relative;
+	top: 60px;
+	list-style: none;
+}
+.footer-right-end {
+	position: relative;
+	top: 60px;
+}
+.footer-bottom-menu ul li {
+	margin-right: 10px;
+}
+.footer-bottom-menu ul li a {
+	display: inline-block;
+	color: #7a7d85;
+	font-size: 25px;
+	position: relative;
+	top: -8px;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: transparent;
+	border-radius: 50%;
+	transition: .4s;
+}
+.footer-bottom-menu ul li a:hover{
+	background:  rgba(0,0,0, .1);
+	color: #7a7d85;
+}
+
+.footer-right-end span {
+	color: #7a7d85;
+	font-size: 20px;
+	margin-right: 5px;
+}
+.footer-right-end a {
+	text-decoration: none;
+	color: #7a7d85;
+	font-weight: 600;
+	margin-left: 0px;
+	transition: .4s;
+	padding: 8px 12px;
+}
+.footer-right-end strong {
+	border: 1px solid #ddd;
+	font-size: 21px;
+	padding: 3px 11px;
+	border-radius: 50%;
+	font-weight: 600;
+}
+.footer-right-end a:hover{
+	background: rgba(0,0,0, .1);
+	border-radius: 10px;
+}
+
+/* Finally I'm seccessfully create a fiverr website design */
+/* I'm done!  @_Rayhan Kobir */
